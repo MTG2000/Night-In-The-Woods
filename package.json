@@ -1,0 +1,29 @@
+{
+  "name": "night-in-the-woods",
+  "version": "1.0.0",
+  "description": "Night in The Woods",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build  --polyfill-node",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mtg",
+  "license": "MIT",
+  "dependencies": {
+    "@pixi/filter-bloom": "^4.1.5",
+    "fontfaceobserver": "^2.1.0",
+    "gsap": "^3.8.0",
+    "pixi.js": "^6.1.3"
+  },
+  "devDependencies": {
+    "@types/fontfaceobserver": "^2.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "snowpack": "^3.8.8",
+    "typescript": "^4.4.3"
+  }
+}
