@@ -16,17 +16,17 @@ const Controls = (function () {
       this.emit("move", { new: move, old });
     },
     init() {
-      document.addEventListener("keypress", (e) => {
+      document.addEventListener("keydown", (e) => {
         if (freeze) return;
         if (move === -1 && Manager.playerX < 0) return this.stop();
         if (move === 1 && Manager.playerX > 14 * WIDTH) return this.stop();
 
         if (move) return;
 
-        if (e.code === "KeyA")
+        if (e.code === "ArrowLeft")
           if (Manager.playerX > 0) move = -1;
           else this.stop();
-        else if (e.code === "KeyD")
+        else if (e.code === "ArrowRight")
           if (Manager.playerX < 14 * WIDTH) move = 1;
           else this.stop();
         else return;

@@ -43,7 +43,7 @@ export default class Forest2 extends BaseScene {
     );
     this.textContainer.addChild(
       new TextPopin(
-        "A story-focused exploration game where you play as Mae Borowski, who recently dropped out of college and has returned to her hometown to find unexpected changes",
+        "A Story about growing, adulthood, and mental problems",
         WIDTH + WIDTH / 2,
         HIEGHT / 2,
         "small",
