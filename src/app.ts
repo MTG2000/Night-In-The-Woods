@@ -7,7 +7,7 @@ import Player from "./modules/player";
 import World from "./world/world";
 
 loader.onComplete.add(setup);
-loader.add("assets/background_music.mp3");
+// loader.add("assets/background_music.mp3");
 loader.load();
 
 function setup(

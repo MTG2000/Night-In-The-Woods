@@ -12,7 +12,7 @@ def rename_files():
 
     # (2) for each file, rename file name
     for file_name in file_list:
-        new_name = re.sub('_0+', '_', file_name)
+        new_name = re.sub('-min', '', file_name)
         print("New Name - " + new_name)
         os.rename(file_name, new_name)
     os.chdir(saved_path)

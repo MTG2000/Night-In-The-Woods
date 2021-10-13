@@ -46,7 +46,7 @@ export default class Forest2 extends BaseScene {
         "A Story about growing, adulthood, and mental problems",
         WIDTH + WIDTH / 2,
         HIEGHT / 2,
-        "small",
+        "medium",
         this.offset
       )
     );

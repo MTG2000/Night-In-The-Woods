@@ -17,8 +17,10 @@ const progressUrl = document.querySelector(".loading .url") as HTMLSpanElement;
 const startBtn = document.querySelector(".loading button") as HTMLButtonElement;
 
 loader.onProgress.add((loader, resource) => {
-  progressBarIn.style.transform = `scaleX(${loader.progress / 100})`;
-  progressText.textContent = loader.progress.toString();
+  progressBarIn.style.transform = `scaleX(${(loader.progress / 100).toFixed(
+    2
+  )})`;
+  progressText.textContent = Math.ceil(loader.progress).toString();
   progressUrl.textContent = resource.url;
 });
 
