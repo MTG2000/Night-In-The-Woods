@@ -31,7 +31,7 @@ export default class Forest3 extends BaseScene {
 
     this.textContainer.addChild(
       new TextPopin(
-        "Strange Things Are Going on",
+        "Some strage things are happening in the woods...",
         WIDTH + WIDTH / 2,
         HIEGHT / 2,
         "medium",
@@ -49,7 +49,7 @@ export default class Forest3 extends BaseScene {
     );
     this.textContainer.addChild(
       new TextPopin(
-        "Something is lurking in the shadows",
+        "You feel something is lurking in the shadows",
         3 * WIDTH + WIDTH / 2,
         HIEGHT / 2,
         "medium",

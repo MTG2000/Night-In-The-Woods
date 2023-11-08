@@ -43,7 +43,7 @@ export default class Forest2 extends BaseScene {
     );
     this.textContainer.addChild(
       new TextPopin(
-        "A Story about growing, adulthood, and mental problems",
+        "A story about growing, adulthood, and mental problems",
         WIDTH + WIDTH / 2,
         HIEGHT / 2,
         "medium",

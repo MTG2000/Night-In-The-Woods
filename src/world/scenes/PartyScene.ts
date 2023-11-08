@@ -47,7 +47,7 @@ export default class PartyScene extends BaseScene {
 
     this.textContainer.addChild(
       new TextPopin(
-        "Meet old and new freinds",
+        "Meet some unique (& weird) characters",
         WIDTH / 2,
         HIEGHT / 2,
         "medium",
